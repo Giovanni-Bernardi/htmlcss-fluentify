@@ -9,6 +9,11 @@ body{
   font-family: 'Poppins', sans-serif
 }
 
+.container{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 /* clearfix */
 .row::after{
   content: "";
@@ -19,8 +24,31 @@ body{
 
 /* regole header */
 header{
+  padding-top: 10px;
+  position: relative;
   background-color: rgba(14, 44, 80, 1);
   height: 300px;
+}
+
+nav{
+width: 80%;
+padding-top: 1%;
+display: inline-block;
+vertical-align: bottom;
+
+}
+
+nav li a{
+text-decoration: none;
+list-style-type: none;
+color: #fff;
+}
+
+nav li{
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 5px;
+  font-size: 14px;
 }
 
 /* main rules */
