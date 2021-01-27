@@ -8,3 +8,67 @@
 body{
   font-family: 'Poppins', sans-serif
 }
+
+/* clearfix */
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+  margin: 10%;
+}
+
+/* regole header */
+header{
+  background-color: rgba(14, 44, 80, 1);
+  height: 300px;
+}
+
+/* main rules */
+.row{
+  background-color: red;
+}
+
+
+.title.main{
+  background-color: rgba(205, 205, 205, 1);
+  height: 100px;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.block{
+  float: left;
+}
+
+/* first row yellow 40(30+10)*/
+.block.first{
+  height: 200px;
+  width: 30%;
+  background-color: yellow;
+}
+
+.block.central{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* second row blue 60(40+20)*/
+.block.second{
+  height: 200px;
+  width: 40%;
+  background-color: blue;
+}
+
+.block.second.left{
+  margin-right: 20%;
+}
+
+hr{
+  margin:0 3% 10% 3%;
+}
+
+/* footer rules */
+footer{
+  background-color: rgb(205, 205, 205);
+  height: 100px;
+}
