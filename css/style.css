@@ -241,7 +241,6 @@ footer{
   background-color: rgb(205, 205, 205);
   padding-left: 7%;
   padding-right: 7%;
-  padding-bottom: : 0;
 }
 
 .textright{
@@ -279,6 +278,7 @@ footer{
 .button.green.footer{
   padding: 18px 5px;
   margin-left: 20px;
+  border: none;
 
 }
 
@@ -286,4 +286,5 @@ footer{
   margin-left: 78%;
   padding: 12px 6px;
   vertical-align: 62px;
+  border: none;
 }
