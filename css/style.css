@@ -57,7 +57,7 @@ nav li{
   display: inline-block;
   text-transform: uppercase;
   padding: 5px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 
@@ -95,6 +95,11 @@ h1{
 
 #button-under-title{
   border: none;
+}
+
+.navright{
+  float: right;
+  margin-left: 10px
 }
 
 /* buttons */
@@ -234,5 +239,51 @@ h3{
 /* footer rules */
 footer{
   background-color: rgb(205, 205, 205);
-  height: 100px;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: : 0;
+}
+
+.textright{
+  float: right;
+  line-height: 170px;
+
+}
+
+.textleft{
+  float: left;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 170px;
+}
+
+
+.textright span,.textright select{
+  color: rgb(116, 116, 116);
+}
+
+.textright span{
+  font-size: 20px;
+  margin-right: 24px;
+
+}
+
+.textright select{
+  font-size: 25px;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid rgb(116, 116, 116);
+  padding-right: 80px;
+}
+
+.button.green.footer{
+  padding: 18px 5px;
+  margin-left: 20px;
+
+}
+
+.button.green.help{
+  margin-left: 78%;
+  padding: 12px 6px;
+  vertical-align: 62px;
 }
